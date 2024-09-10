@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: 40vh;
+  font-family: 'Verdana', sans-serif;
+}
+
+.title{
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 40px;
+}
+
+.add-button{
+  justify-content:center;
+  align-items: center;
+  margin-left: 10px; /*espacio entre add y barra de texto*/
+  width:60px;
+  height:35px;
+  font-size: 17px;
+  font-family: 'Verdana', sans-serif;
+  cursor: pointer;
+}
+
+.input-box{
+  margin-left: 40px;
+  border: 1px solid;
+  width : 280px;
+  height: 20px;
+  padding: 10px;
+}
+
+.task-box {
+  display:flex;
+  border: 1px solid;
+  width : 350px;
+  height: 24px;
+  align-items:center;
+  padding:10px;
+  margin-bottom: 10px;
+}
+
+.task-box p{
+  margin-left: 10px;
+}
+
+.task-box button{
+  margin-left:auto;
+  cursor: pointer;
+}
